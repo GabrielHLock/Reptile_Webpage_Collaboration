@@ -1,0 +1,25 @@
+.griditem{
+    display: grid;
+    gap: 10px 10px;
+    grid-template-columns: auto auto auto;
+}
+.griditems{
+    border: 1px solid;
+    background-color: #e7e2de;
+    max-width: 132px;
+    text-align: center;
+    font-size: 10px;
+    padding: 0 -70px;
+}
+.griditems h2{
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid;
+}
+.griditems h1{
+    color: #ff6128;
+    margin-top: 10px;
+}
+#gridimage{
+    width: 130px;
+    height: 130px;
+}
