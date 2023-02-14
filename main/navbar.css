@@ -1,0 +1,43 @@
+#topnav {
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgb(39, 33, 33);
+    justify-content: space-around;
+    padding: 5px 5px 5px;
+    height: 50px;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#topnav .topnavbutton {
+    text-decoration: none;
+    border: 1px;
+    margin: 5px 5px 5px;
+    color: white;
+    padding: 5px 5px 5px;
+}
+
+#topnav .topnavbutton:hover {
+    background-color: black;
+}
+
+.dropdownnav {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.topdropdown:hover .dropdownnav{
+    display: block;
+}
+
+.topdropdown {
+     display: inline-block;
+     position: relative;
+} 

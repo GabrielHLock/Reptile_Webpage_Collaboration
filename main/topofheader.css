@@ -1,22 +1,18 @@
 *{
 	margin: 0;
 	padding: 0;
-	height: 100%;
 	box-sizing: border-box;
 }
 body{
 	background-color: #f7f4f2;
 }
 
-.stickytop{
-	position: sticky;
-}
 
 .topofheader .topofheaderitems{
 	display: flex;
 	flex-direction: row;
 	background-color: #231f20;
-	height: 15%;
+	height: 100px;
 	justify-content:space-between;
 }
 .topofheaderitems{
