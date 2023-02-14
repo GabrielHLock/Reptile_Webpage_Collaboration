@@ -12,12 +12,12 @@ body{
 	position: sticky;
 }
 
-.topofheader{
+.topofheader .topofheaderitems{
 	display: flex;
 	flex-direction: row;
 	background-color: #231f20;
 	height: 15%;
-	justify-content: space-evenly;
+	justify-content:space-between;
 }
 .topofheaderitems{
 	display: flex;
@@ -26,6 +26,12 @@ body{
 
 .logo{
 	display: flex;
+	margin-left: 30px;
+	margin-top: 12px;
+}
+#spiderlogo{
+	width: 70px;
+	height: 70px;
 }
 
 .searchbar{
@@ -36,6 +42,7 @@ body{
 	border-radius: 10px;
 	margin: auto;
 	background-color: #f7f4f2;
+	max-width: 300px;
 }
 .searchiconarea{
 	display: flex;
@@ -63,3 +70,22 @@ textarea:focus, input:focus{
 	outline: none;
 }
 
+
+.login_cart{
+	display: flex;
+	margin-top: 37px;
+	margin-right: 30px;
+}
+.login{
+	color: #f7f4f2;
+	padding-right: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+.login:hover{
+	color: #423b3c;
+
+}
+.cart{
+	color: #f7f4f2;
+}
