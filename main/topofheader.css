@@ -55,7 +55,7 @@ body{
 #inputsearchicon{
 	color: #f7f4f2;
 }
-input{
+.searchbar input{
 	border: hidden;
 	outline: none;
 	border: none;
@@ -83,6 +83,9 @@ textarea:focus, input:focus{
 .login:hover{
 	color: #423b3c;
 
+}
+.logindropdown a{
+	text-decoration: none;
 }
 .cart{
 	color: #f7f4f2;

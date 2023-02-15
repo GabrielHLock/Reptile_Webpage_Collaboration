@@ -1,6 +1,10 @@
+footer div{
+    height: 100px;
+}
 #moneydiv {
     width: 33%;
     float: left;
+    height: 50px;
 }
 
 #socialmedia {
