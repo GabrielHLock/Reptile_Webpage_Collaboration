@@ -8,7 +8,26 @@
         <link rel="stylesheet" href="topofheader.css">
         <link rel="stylesheet" href="navbar.css">
         <link rel="stylesheet" href="grid.css">
+        <link rel="stylesheet" href="picturepara.css">
+        <link rel="stylesheet" href="maplocation.css">
+        <link rel="stylesheet" href="shipping.css">
+        <link rel="stylesheet" href="footer.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <script src="https://kit.fontawesome.com/4ae1368b1e.js" crossorigin="anonymous"></script>
+<style>
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 70px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 10px;
+    border-top: 1px solid #e7e2de;
+}
+</style>
     </head>
 
     <body>
@@ -18,7 +37,7 @@
                     <div class="topofheaderitems">
 
                         <div class="logo">
-                            <img id="spiderlogo" src="../logo.png" alt="placeholder">
+                            <a href="reptile_webpage.html"><img id="spiderlogo" src="../logo.png" alt="placeholder"></a>
                         </div>
 
                         <div class="searchbar">
@@ -111,7 +130,43 @@
         </div>
         </nav>
 
+    <div>
+        <img src="1024px-Draco_blanfordii,_Blanford’s_flying_lizard_2.jpg">
+    </div>
+
         <main>
+    <div class="mainparagraph">
+         <div id="paragraph">
+        <h2>
+            ABOUT THE SHOP
+        </h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolorum odio voluptas repellendus animi est natus optio omnis voluptatum cum, asperiores, voluptatem voluptate eius dolor amet alias? Corrupti, voluptate nemo?
+        </p>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos delectus ipsam necessitatibus optio, vero fugiat reiciendis suscipit, voluptatibus animi vitae repellat. Eveniet laborum iste quidem facilis voluptatem assumenda molestiae numquam.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nesciunt accusantium architecto atque repudiandae, obcaecati voluptatum aspernatur minus adipisci cupiditate illum sapiente dignissimos, beatae quis maiores aliquid nemo quas magni.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem debitis quo ad quaerat velit, nulla non dolor natus! Quo eligendi similique cupiditate deleniti voluptate corrupti ducimus? Cum laboriosam reprehenderit cumque?
+        </p>
+         </div>
+         <div id="policies">
+        <h2>
+            OUR POLICIES
+        </h2>
+        <a href="https://google.com">Live Arrive Guarentee</a>
+        <a href="https://google.com">Shipping Rates & Policy</a>
+        <a href="https://google.com">Refund Policy</a>
+        <a href="https://google.com">COVID-19 Policy</a>
+        <a href="https://google.com">Privacy Policy</a>
+        <a href="https://google.com">Terms Of Service</a>
+         </div>
+    </div>
+
+
 
             <div class="animalgrid">
                 <div class="griditem">
@@ -140,9 +195,84 @@
                                          </div>
                 </div>
             </div>
+
+            <div class="maparea">
+                <h2 id="mapareatitle">Our Store</h2>
+                <div class="mapbox">
+                    <div class="mapboxtext">
+                        <h3 id="mapboxtitle">The Shop</h3>
+                        <span id="mapboxundertext">Somewhere in far north Canada <br> 1-800-SmallCritters <br><br>Monday - Friday: 10AM - 9PM<br><br>
+                            Saturday: 10AM - 8PM<br><br>
+                            Sunday: 10AM - 6 PM<br><br></span>
+                    </div>
+                    <img id="googlemap" src="map.png">
+                </div>
+            </div>
+
+
+    <div id="shippinginfo">
+        <div id="shipping1">
+            <h3><span class="material-symbols-outlined">
+                forward_to_inbox
+                </span>
+                Shipping across Canada</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod architecto odio sed dolor aspernatur minima, doloribus dolorum nulla adipisci aperiam incidunt iure obcaecati ratione sequi laborum. Nemo praesentium corporis iure.
+            </p>
+        </div>
+        <div id="shipping2">
+            <h3><span class="material-symbols-outlined">
+                shopping_cart_checkout
+                </span>
+                In store Shopping and Delivery</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate cupiditate dolores voluptatibus. Aut asperiores est vitae ea, molestias veniam culpa consequuntur modi dignissimos illo perspiciatis eaque voluptas. Qui, eos dolore!
+            </p>
+        </div>
+        <div id="shipping3">
+            <h3><span class="material-symbols-outlined">
+                chat_bubble
+                </span>
+                We're here to help</h3>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam odit similique iste autem, voluptate excepturi recusandae porro laboriosam dolor dicta et ea deleniti. Officiis eum natus inventore animi accusantium voluptatum.
+            </p>
+        </div>
+        <div id="shipping4">
+            
+            <h3><span class="material-symbols-outlined">
+                check
+                </span>
+                Secure Payments</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolores atque minus quam minima consequuntur odio inventore doloremque in ea? Soluta blanditiis earum non molestiae tempore pariatur voluptate quisquam dolores.
+            </p>
+        </div>
+    </div>
         </main>
 
         <footer>
+                    <div id="moneydiv">
+            <select id="currency" name="currency"> 
+                <option value="Canadian (CAD$)">Canadian (CAD$)</option>
+                <option value="United States (USD$)">United States (USD$)</option>
+            </select>
+            <br>
+            <p>
+                @ 2023 Small Critters
+            </p>
+            <p>
+                Powered by HTML,CSS
+            </p>
+        </div>
+        <div id="socialmedia">
+            <p>Follow Us</p>
+            <i class="fab fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+
+
+
+        </div>
         </footer>
     </body>
 </html>

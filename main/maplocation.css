@@ -1,0 +1,28 @@
+.maparea{
+    margin-top: 50px;
+}
+#mapareatitle{
+    margin-bottom: 15px;
+}
+.mapbox{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #e7e2de;
+    height: 351px;
+}
+.mapboxtext{
+    margin: 20px 20px;
+}
+#mapboxtitle{
+    padding-bottom: 10px;
+}
+#mapboxundertext{
+    color: #3a2a2f;
+}
+#googlemap{
+    display: flex;
+    flex-wrap: nowrap;
+    float: right;
+    width: 600px;
+    height: 350px;
+}

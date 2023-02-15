@@ -9,6 +9,7 @@
     height: 50px;
     flex-wrap: nowrap;
     align-items: center;
+    top: 1px;
 }
 
 #topnav .topnavbutton {

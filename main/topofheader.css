@@ -7,7 +7,9 @@ body{
 	background-color: #f7f4f2;
 }
 
-
+.stickytop{
+	position:relative;
+}
 .topofheader .topofheaderitems{
 	display: flex;
 	flex-direction: row;
