@@ -1,0 +1,19 @@
+#logininputs {
+    display:flex;
+    width: 20%;
+    height: 300px;
+    flex-direction: column;
+}
+
+#logininputs input {
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+}
+
+body #logininputs{
+    display: flex;
+    justify-content: center;
+    margin:auto
+}
+
