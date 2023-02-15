@@ -41,4 +41,15 @@
 .topdropdown {
      display: inline-block;
      position: relative;
-} 
+}
+
+nav a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    background-color: rgb(39, 33, 33);
+    color: white;
+}
