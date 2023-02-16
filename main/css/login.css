@@ -15,4 +15,7 @@ body #logininputs{
     justify-content: center;
     margin:auto
 }
-
+/* workaround for footer spacing */
+body{
+    height: 100vh;
+}
